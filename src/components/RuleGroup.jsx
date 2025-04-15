@@ -55,7 +55,7 @@ const RuleGroup = ({ group, onChange, onDelete }) => {
           </select>
           {onDelete && (
             <button
-              className="ml-auto text-red-500 font-bold"
+              className="ml-auto text-red-500 font-bold cursor-pointer"
               onClick={onDelete}
             >
               <MdClose className="rounded w-7 h-7" />
@@ -85,13 +85,13 @@ const RuleGroup = ({ group, onChange, onDelete }) => {
   
         <div className="mt-2 flex gap-2">
           <button
-            className="bg-blue-400 text-white px-2 py-1 rounded flex items-center text-sm md:text-base"
+            className="bg-blue-400 text-white px-2 py-1 rounded flex items-center text-sm md:text-base cursor-pointer"
             onClick={addCondition}
           >
             <MdAdd /> Condition
           </button>
           <button
-            className="bg-green-400 text-white px-2 py-1 rounded flex items-center text-sm md:text-base"
+            className="bg-green-400 text-white px-2 py-1 rounded flex items-center text-sm md:text-base cursor-pointer"
             onClick={addGroup}
           >
             <MdAdd /> Group

@@ -64,7 +64,7 @@ const App = () => {
         </div>
         <button
           onClick={handleEvaluate}
-          className="mt-4 bg-indigo-600 text-white px-4 py-2 rounded w-full md:w-auto"
+          className="mt-4 bg-indigo-600 text-white px-4 py-2 rounded w-full md:w-auto cursor-pointer"
         >
           Evaluate Rule
         </button>
